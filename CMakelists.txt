@@ -1,0 +1,14 @@
+set(IMGUI_SRC
+    imconfig.h
+    imgui.h
+    imstb_rectpack.h
+    imstb_textedit.h
+    imstb_truetype.h
+    imgui_internal.h
+    imgui.cpp
+    imgui_demo.cpp
+    imgui_draw.cpp
+    imgui_tables.cpp
+    imgui_widgets.cpp
+    )
+add_library(imgui STATIC ${IMGUI_SRC})
